@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `My Personal Portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Glenn Eirik Hansen – Web Developer`,
+    siteUrl: `https://glenneirikhansen.no/`,
+    description: ``
   },
   plugins: [{
     resolve: 'gatsby-plugin-google-analytics',
