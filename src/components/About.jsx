@@ -1,6 +1,8 @@
 import React from 'react';
 import Glenn from '../images/glenn.png';
 
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+
 function About() {
     return (
         <section className='description'>
@@ -19,7 +21,16 @@ function About() {
                     going on camping trips is a lot of fun. Some may say I am a gun nut, as I am participating in IPSC (International Practical Shooting Confederation),
                     where I am a certified Range Officer.
                 </p>
-                <p>As you can see, I am quite the active person with a lot of hobbies and interests! While you're here, check out my projects below ;)</p>
+                <p>As you can see, I am quite the active person with a lot of hobbies and interests! While you're here, check out my projects below, and/or contact me using the links provided below ¯\_(ツ)_/¯</p>
+                <a href='https://github.com/glennispotatis' target='_blank' rel='noreferrer'>
+                    <AiOutlineGithub size='3em' />
+                </a>
+                <a href='https://www.linkedin.com/in/glenn-eirik-hansen-154aa71b9/' target='_blank' rel='noreferrer'>
+                    <AiFillLinkedin size='3em' />
+                </a>
+                <a href='mailto:hansenglenneirik@gmail.com' target="_blank" rel="noreferrer">
+                    <AiOutlineMail size='3em' />
+                </a>
             </article>
         </section>
     );

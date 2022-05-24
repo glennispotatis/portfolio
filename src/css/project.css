@@ -1,0 +1,17 @@
+.project-description {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-description img {
+    max-width: 100%;
+}
+
+.project-description article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-description article a {
+    text-align: center;
+}

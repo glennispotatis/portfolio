@@ -9,9 +9,6 @@ import ProjectCard from '../components/ProjectCard';
 import Plantrol from '../images/plantrol.jpeg';
 import uniLeague from '../images/unileague.jpeg';
 import Accessibility from '../images/accessibility.jpeg';
-import WebCoding from '../images/webcoding.jpg';
-import Avgangsutstilling from '../images/avgangsutstilling.jpg';
-import Contact from '../components/Contact';
 
 function IndexPage() {
   return (
@@ -19,13 +16,10 @@ function IndexPage() {
       <About />
       <h2>My Projects</h2>
       <section className='projects'>
-            <ProjectCard image={Plantrol} title='Plantrol – Web Project' />
-            <ProjectCard image={uniLeague} title='uniLeague – Bachelor Project' />
-            <ProjectCard image={Accessibility} title='7-Minute-Workout – Accessibility Exam' />
-            <ProjectCard image={WebCoding} title='Department of Design – Webcoding Exam' />
-            <ProjectCard image={Avgangsutstilling} title='Avgangsutstilling – Exhibition Page' />
+            <ProjectCard image={Plantrol} title='Plantrol – Web Project' link='/plantrol' />
+            <ProjectCard image={uniLeague} title='uniLeague – Bachelor Project' link='/unileague' />
+            <ProjectCard image={Accessibility} title='7-Minute-Workout – Accessibility Exam' link='/workout' />
         </section>
-        <Contact />
     </main>
   );
 }
