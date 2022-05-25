@@ -27,12 +27,17 @@ function UniLeague() {
 
                 <h3>Problem Description</h3>
                 <p>
-                    
+                    An associate professor at NTNU in Gjøvik is holding Kahoot-quizzes at the end of each lecture. 
+                    At the end of the semester, all the scores from the Kahoot-quizzes gets summarized. 
+                    The student with the most points will win a prize for their efforts during the course. 
+                    However, summarizing the scores is a tedious task where human error can be a factor.
                 </p>
 
                 <h3>Our Solution</h3>
                 <p>
-                    
+                    uniLeague is a web application where a teacher can upload an excel-file they get when downloading the scores after the Kahoot-quiz. 
+                    The application will take the scores and automatically summarize them, and then display them for both students and teachers to see. 
+                    A student can see their individual quiz performance, while the teachers can see how the students are ranking on the leaderboard in their course.
                 </p>
             </section>
             <section className='my-work'>

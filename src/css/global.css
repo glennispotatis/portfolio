@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background: linear-gradient(315deg, #ffffff, #d7e1ec);
     background-size: 600% 600%;
@@ -98,6 +104,7 @@ a {
 
 .project-card div img {
     width: 100%;
+    object-fit: cover;
 }
 
 .project-card div h3 {
