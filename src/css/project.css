@@ -1,17 +1,70 @@
 .project-description {
     max-width: 900px;
     margin: 0 auto;
+    filter: drop-shadow(0 0 0.75rem var(--color-7));
 }
 
 .project-description img {
     max-width: 100%;
+    border-radius: 1em;
 }
 
 .project-description article {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1em;
 }
 
 .project-description article a {
     text-align: center;
+    background-color: var(--color-1);
+    border-radius: 1em;
+    padding: 0 2em;
+}
+
+.problem-description {
+    margin: 0 15rem;
+}
+
+.problem-description ul::after {
+    content: '}';
+    font-weight: bold;
+}
+
+.problem-description ul li {
+    list-style-type: none;
+    margin: 1rem 0;
+}
+
+.my-work article {
+    display: flex;
+    align-items: center;
+}
+
+.my-work article div {
+    max-width: 50%;
+}
+
+.my-work article figure img {
+    max-width: 100%;
+    filter: drop-shadow(0 0 0.75rem var(--color-7));
+}
+
+@media only screen and (max-width: 990px) {
+    .problem-description {
+        margin: 0;
+    }
+
+    .my-work article {
+        flex-wrap: wrap;
+    }
+
+    .my-work article:nth-of-type(1) {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .my-work article div {
+        max-width: 100%;
+    }
 }
