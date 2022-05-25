@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
     background-size: 600% 600%;
 
     -webkit-animation: color-shifter 30s ease infinite;
@@ -42,6 +42,16 @@ h2 {
 a {
     text-decoration: none;
     color: unset;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.back-arrow a {
+    display: flex;
+    gap: 1em;
+    align-items: center;
 }
 
 /*  Introduction  */
@@ -111,7 +121,7 @@ a {
 	height: 200px;
 	border-radius: 10%;
 	border: 6px solid whitesmoke;
-	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 10px 2px var(--color-8);
 	margin-bottom: 1rem;
 	transition: filter 0.4s ease-in-out;
 }
