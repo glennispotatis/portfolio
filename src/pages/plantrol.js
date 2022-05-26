@@ -17,7 +17,7 @@ function Plantrol() {
             <ProjectDescription image={PlantrolImg} title='Plantrol – Web Project' github='https://github.com/Webproject-exam' demo='https://webproject-exam.netlify.app/' />
             <section className='problem-description'>
                 <h2>Project Outline</h2>
-                <h3>Quick Facts <code>= &#123;</code></h3>
+                <h3>Quick Facts = &#123;</h3>
                 <ul>
                     <li><span className='strong'>Timeline:</span> March – June 2021</li>
                     <li><span className='strong'>Type:</span> Group Project</li>

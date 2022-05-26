@@ -15,7 +15,7 @@ function UniLeague() {
             <ProjectDescription title='uniLeague – Bachelor Project' image={uniLeague} github='https://github.com/Bachelorproject-Spring-22' demo='https://unileague.netlify.app/' />
             <section className='problem-description'>
                 <h2>Project Outline</h2>
-                <h3>Quick Facts <code>= &#123;</code></h3>
+                <h3>Quick Facts = &#123;</h3>
                 <ul>
                     <li><span className='strong'>Timeline:</span> Late December – May 2022</li>
                     <li><span className='strong'>Type:</span> Group Project</li>
@@ -49,24 +49,9 @@ function UniLeague() {
                     </figure>
                     <div>
                         <p>
-                            
+                            *PLACEHOLDER_TEXT*
                         </p>
                     </div>
-                </article>
-
-                <h3>Authentication</h3>
-                <article>
-                    <div>
-                        <p>
-
-                        </p>
-                        <p>
-                            
-                        </p>
-                    </div>
-                    <figure>
-                        <img src='https://picsum.photos/500/300' alt='' />
-                    </figure>
                 </article>
             </section>
 
