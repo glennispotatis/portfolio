@@ -70,7 +70,7 @@ function UniLeague() {
                         </p>
                     </div>
                     <figure>
-                        <img src={uniLeagueCode} alt='Code showing how to toggle between 2 image states' />
+                        <img src={uniLeagueCode} alt='Code showing the toggle between hide/show password' />
                     </figure>
                 </article>
             </section>

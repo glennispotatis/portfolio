@@ -7,7 +7,7 @@ function About() {
     return (
         <section className='description'>
             <article className='about-image'>
-                <h1>Glenn Eirik Hansen</h1>
+                <h1 id='name'>Glenn Eirik Hansen</h1>
                 <img src={Glenn} alt='Glenn Eirik Hansen posing in black and white' />
             </article>
             <article className='about-description'>

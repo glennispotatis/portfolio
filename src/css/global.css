@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;700&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+    background: linear-gradient(315deg, #ffffff, #b4cfeb);
     background-size: 600% 600%;
 
     -webkit-animation: color-shifter 30s ease infinite;
@@ -155,6 +155,11 @@ a {
 .project-card:hover .title::after {
 	width: 100%;
 	left: 0;
+}
+
+#name {
+    font-family: 'Dancing Script', cursive;
+    color: #d7e1ec;
 }
 
 @media only screen and (max-width: 990px) {
