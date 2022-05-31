@@ -17,19 +17,19 @@ function Workout(){
             <ProjectDescription image={Accessibility} title='7-Minute-Workout – Accessibility Exam' github='https://github.com/glennispotatis/eksamen-tilgjengelighet-2020' demo='https://folk.ntnu.no/glenneha/idg2012/' />
             <section className='problem-description'>
                 <h2>Project Outline</h2>
-                <h3>Quick Facts = &#123;</h3>
-                <ul>
-                    <li><span className='strong'>Timeline:</span> November – December 2022</li>
-                    <li><span className='strong'>Type:</span> Group Project</li>
-                    <li><span className='strong'>Course:</span> IDG2012 - Accessibility</li>
-                    <li><span className='strong'>Role:</span> Front-end Developer</li>
-                    <li><span className='strong'>Tools:</span> HTML5, CSS3, JavaScript</li>
-                    <li><span className='strong'>Client:</span> Associate Professor at Department of Design at NTNU in Gjøvik</li>
+                <h3 className='code'>const quickFacts = &#123;</h3>
+                <ul className='code'>
+                    <li>Timeline: November – December 2022</li>
+                    <li>Type: Group Project</li>
+                    <li>Course: IDG2012 - Accessibility</li>
+                    <li>Role: Front-end Developer</li>
+                    <li>Tools: HTML5, CSS3, JavaScript</li>
+                    <li>Client: Associate Professor at Department of Design at NTNU in Gjøvik</li>
                 </ul>
                 <h3>Problem Description</h3>
                 <p>
                     The task was to develop a single-page website that displays, in a usable and accessible way, the same exercise instructions shown in the provided starting image. 
-                    The starting images depict the 7-minute workout, a series of calisthenics exercises to be carried out in 7 minutes, doing each exercise for 30 seconds and resting for 5 seconds between exercises. 
+                    The starting image depict the 7-minute workout, a series of calisthenics exercises to be carried out in 7 minutes, doing each exercise for 30 seconds and resting for 5 seconds between exercises. 
                     Some exercises require changing sides. There are 4 different personas with different disabilities such as blindness, shaky hands, physical disability and small mobile screen.
                 </p>
 

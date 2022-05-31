@@ -17,14 +17,14 @@ function Plantrol() {
             <ProjectDescription image={PlantrolImg} title='Plantrol – Web Project' github='https://github.com/Webproject-exam' demo='https://webproject-exam.netlify.app/' />
             <section className='problem-description'>
                 <h2>Project Outline</h2>
-                <h3>Quick Facts = &#123;</h3>
-                <ul>
-                    <li><span className='strong'>Timeline:</span> March – June 2021</li>
-                    <li><span className='strong'>Type:</span> Group Project</li>
-                    <li><span className='strong'>Course:</span> IDG2671 - Web Project</li>
-                    <li><span className='strong'>Role:</span> Full-stack Developer</li>
-                    <li><span className='strong'>Tools:</span> MongoDB Express React Node (MERN)</li>
-                    <li><span className='strong'>Client:</span> Higher Executive Officer at Department of Design at NTNU in Gjøvik</li>
+                <h3 className='code'>const quickFacts = &#123;</h3>
+                <ul className='code'>
+                    <li>Timeline: March – June 2021</li>
+                    <li>Type: Group Project</li>
+                    <li>Course: IDG2671 - Web Project</li>
+                    <li>Role: Full-stack Developer</li>
+                    <li>Tools: MongoDB Express React Node (MERN)</li>
+                    <li>Client: Higher Executive Officer at Department of Design at NTNU in Gjøvik</li>
                 </ul>
                 <h3>Problem Description</h3>
                 <p>
